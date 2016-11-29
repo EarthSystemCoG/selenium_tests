@@ -1,1 +1,2 @@
-# selenium_tests
+This repository contains a series of test cases and test suites designed to work with the Selenium IDE for testing on the CU-DEV node. 
+They are dependent upon the database on the node, which changes. This means the tests sometimes have to be modified before each use. In particular the data tests create a fake project linking to cmip5 data. This data is also changing so the number of search results returned has to be modifed. There are several locations that reference images and files used in testing. Simply delete these and add your own. 
