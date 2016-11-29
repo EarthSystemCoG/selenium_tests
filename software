@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/1_auto_test/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Software</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Software</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_software_features</td>
+	<td>none</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_system_requirements</td>
+	<td>none</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_license</td>
+	<td>MIT</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_implementationLanguage</td>
+	<td>Python</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_bindingLanguage</td>
+	<td>none</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_supportedPlatforms</td>
+	<td>everything</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_externalDependencies</td>
+	<td>none</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download / Releases</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Download / Releases</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>test download external URL</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>auto testing filling in download external URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Install / Admin Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Install / Admin Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing installation external URL</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>auto testing filling in installation guide URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Install / Admin Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

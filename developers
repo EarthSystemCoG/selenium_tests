@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/projects/1_auto_test/" />
+<title>developers</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">developers</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Developers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Development</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_developmentOverview</td>
+	<td>blah blah blah</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Repositories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Repositories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of repository URLs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of repository URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Trackers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Trackers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of tracker URLs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of tracker URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dev Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Dev Docs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of dev docs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of dev docs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of testing URLs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of testing URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Use Cases</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Use Cases</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of use case URLs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of use case URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checklists</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Checklists</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>testing auto completion of checklist URLs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of checklist URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Prioritization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Prioritization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Prioritization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

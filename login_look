@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://dev-hydra-httpd.esrl.svc/" />
+<title>login_look</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">login_look</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=user_menu</td>
+	<td>Welcome, Guest. | Login | Create Account</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=right_cog_logo</td>
+	<td>/static/cog/img/cog_engineer_sm.png</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=top_nav_right</td>
+	<td>What is CoG? Site Support</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h2</td>
+	<td>CoG Login</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div[style*=&quot;font-style&quot;]</td>
+	<td>Please note that username and password are case-sensitive.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//caption</td>
+	<td>CoG Login</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=input[id=&quot;username&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=input[id=&quot;password&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td>Login</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span[style*=&quot;position: absolute; right: 0px;&quot;]</td>
+	<td>Forgot Username?&nbsp;&nbsp;&nbsp;Forgot Password?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=input[name=&quot;openid_identifier&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=input[name=&quot;bsignin&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

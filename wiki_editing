@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu" />
+<title>wiki_editing</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">wiki_editing</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>Test Wiki Page</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_label</td>
+	<td>Auto Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_url</td>
+	<td>test_page</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_newtopic</td>
+	<td>Auto Testing</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_body</td>
+	<td>This is a wiki edit</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>8000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_body</td>
+	<td>This is a wiki update</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#page_actions_box &gt; a.addlink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/test_upload.pdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test upload to a wiki page</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Attachments (1)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Child Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test child page</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_url</td>
+	<td>test_child_wiki_page</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_body</td>
+	<td>This is a child page edit. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit Site Index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Auto Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Delete Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test child page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Delete Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

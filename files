@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu" />
+<title>files</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">files</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add File</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/test_upload.pdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test bad characters &lt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>testing file upload with bad character in the title</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>Sorry, the document title contains invalid characters. It can only contain letters, numbers, spaces, and _ - . /</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add File</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/test_upload.pdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test bad characters in description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>this description contains a bad character &gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>Sorry, the document description contains invalid characters. It can only contain letters, numbers, spaces, and _ - . / ,</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/test_upload.pdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test upload</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>test upload from the main menu. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>test upload from the main menu. updated. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List All Files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=filter_by</td>
+	<td>label=Images</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=4_files.png</td>
+	<td>4_files.png</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=filter_by</td>
+	<td>label=Text</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=CoG Governance Plan</td>
+	<td>CoG Governance Plan</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=filter_by</td>
+	<td>label=Presentations</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Earth System CoG</td>
+	<td>Earth System CoG</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=filter_by</td>
+	<td>label=Programs</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=filter_by</td>
+	<td>label=All Files</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=4_files.png</td>
+	<td>4_files.png</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=order_by</td>
+	<td>label=Title (reversed)</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=wiki_page.png</td>
+	<td>wiki_page.png</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=order_by</td>
+	<td>label=Last Update</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=ESGF-CoG_group_registration_page.png</td>
+	<td>ESGF-CoG_group_registration_page.png</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=order_by</td>
+	<td>label=Last Update (reversed)</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Earth System CoG Collaboration Environment</td>
+	<td>Earth System CoG Collaboration Environment</td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=order_by</td>
+	<td>label=Last Update</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=ESGF-CoG_group_registration_page.png</td>
+	<td>ESGF-CoG_group_registration_page.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=yui-gen0-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add File</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Documents/testing cog file extensions/file_with_garbage_extension.garb</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test of file with garbage extension</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>test of file with bad extension</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>File extension .garb is not supported.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add File</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Documents/testing cog file extensions/file_with_no_extension</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test of file with no extension</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>test of file with no extension</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>File name must have an extension.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add File</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_file</td>
+	<td>/Users/sylvia.murphy/Documents/testing cog file extensions/file_with_wrong_extension.pptx</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>test of file with wrong extension</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>test of file with wrong extension</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>File extension .pptx does not match its valid mime type.</td>
+</tr>
+</tbody></table>
+</body>
+</html>

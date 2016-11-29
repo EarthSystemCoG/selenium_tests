@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="admin_tools">admin_tools</a></td></tr>
+<tr><td><a href="all_system_users">all_system_users</a></td></tr>
+<tr><td><a href="all_node_users">all_node_users</a></td></tr>
+<tr><td><a href="configure_peers">configure_peers</a></td></tr>
+<tr><td><a href="project_roles">project_roles</a></td></tr>
+<tr><td><a href="publish_news">publish_news</a></td></tr>
+<tr><td><a href="non-cog-link">non-cog-link</a></td></tr>
+<tr><td><a href="wiki_editing">wiki_editing</a></td></tr>
+<tr><td><a href="list_pages">list_pages</a></td></tr>
+<tr><td><a href="files">files</a></td></tr>
+<tr><td><a href="project_browser">project_browser</a></td></tr>
+<tr><td><a href="site_support_link">site_support_link</a></td></tr>
+</tbody></table>
+</body>
+</html>

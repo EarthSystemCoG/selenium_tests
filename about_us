@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/projects/1_auto_test/" />
+<title>about_us</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">about_us</td></tr>
+</thead><tbody>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_external_homepage</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Mission</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Mission</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_mission</td>
+	<td>To test automatically as much as possible. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vision</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Vision</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_vision</td>
+	<td>Requires glasses</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Values</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Values</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_values</td>
+	<td>Values or Virtues, you pick</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Impacts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Impacts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>My impact</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>Not as strong as Meteor Crater in Arizona. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Impacts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_history</td>
+	<td>In a galaxy far far away...</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Partners</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Partners</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-name</td>
+	<td>Other auto testers</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-image</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/auto_logo.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sponsors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Sponsors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-name</td>
+	<td>Our funders</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-image</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/auto_logo.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Our funders</td>
+	<td>Our funders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Sponsors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>link=Our funders</td>
+	<td>Our funders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=People</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project People</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-first_name</td>
+	<td>George</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-last_name</td>
+	<td>Washington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-institution</td>
+	<td>White House</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-researchKeywords</td>
+	<td>Gardening</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-image</td>
+	<td>/Users/sylvia.murphy/Pictures/auto test/george_washington.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project People</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

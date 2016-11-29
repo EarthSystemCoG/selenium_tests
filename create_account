@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/" />
+<title>create_account</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create_account</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_first_name</td>
+	<td>Xena</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_last_name</td>
+	<td>Warrior Princess</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_username</td>
+	<td>xena_wp</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_email</td>
+	<td>xena@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_password</td>
+	<td>Iamreal23$%</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_confirm_password</td>
+	<td>Iamreal23$%</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_institution</td>
+	<td>tvland</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_city</td>
+	<td>aukland</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_country</td>
+	<td>new zealand</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_researchKeywords</td>
+	<td>riding horses, kicking butt, sword practice</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_researchInterests</td>
+	<td>The woman rides alone<br />&nbsp;&nbsp;&nbsp;&nbsp;Her past vanquished her<br />&nbsp;&nbsp;&nbsp;&nbsp;Against the armies of a dark world<br />&nbsp;&nbsp;&nbsp;&nbsp;She fights for the good.<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;The sounds of horns approach<br />&nbsp;&nbsp;&nbsp;&nbsp;Make way for the warrior!<br />&nbsp;&nbsp;&nbsp;&nbsp;Drums beat in rhythm<br />&nbsp;&nbsp;&nbsp;&nbsp;The Princess is here again! </td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_subscribed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_url-0-url</td>
+	<td>http://www.creationent.com/outback/fanclubs/index.html</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_url-0-name</td>
+	<td>Xena Fan Club</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

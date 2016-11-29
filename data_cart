@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base"/>
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/1_data_test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Search with options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='search-form']/div/div/div[2]/div/div[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=checkbox_variable_basin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add all displayed results to Data Cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=My Data Cart (10)</td>
+	<td>My Data Cart (10)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=My Data Cart (10)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>15000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=datacart-checkbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=WGET Script</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=WGET Script for pcmdi.llnl.gov</td>
+	<td>WGET Script for pcmdi.llnl.gov</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hide WGET Script</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=datacart-checkbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=query-filter</td>
+	<td>volcello</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[type=&quot;button&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Show Files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000 </td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='files_cmip5.output1.LASG-CESS.FGOALS-g2.midHolocene.fx.ocean.fx.r0i0p0.v20130314|aims3.llnl.gov']/div</td>
+	<td>Total Number of Files: 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hide Files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Show Metadata</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=dataset_cmip5.output1.LASG-CESS.FGOALS-g2.midHolocene.fx.ocean.fx.r0i0p0.v20130314|aims3.llnl.gov</td>
+	<td>Version = 20130314 </td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hide Metadata</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=My Data Cart (9)</td>
+	<td>My Data Cart (9)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Remove All</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=yui-gen0-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=My Data Cart (0)</td>
+	<td>My Data Cart (0)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Last Search</td>
+	<td></td>
+</tr>

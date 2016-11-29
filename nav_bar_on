@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/projects/1_auto_test/" />
+<title>upper_nav_bar_on</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">upper_nav_bar_on</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Mission</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Vision</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Values</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Impacts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Partners</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Sponsors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_People</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Registration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Location</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Lodging</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Transportation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Computing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Release Schedules&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Download / Releases&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Install / Admin Docs&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_FAQ</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_User Docs&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Code Examples&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Repositories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Trackers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Dev Docs&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;tab_Use Cases&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Checklists</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Prioritization</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Roadmaps</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Bodies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Roles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Communications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Processes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Policies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=tab_Metrics</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Evaluations</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;folder_Test Cases&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Figures</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Proposals</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Newsletters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Minutes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Publications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=folder_Presentations</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

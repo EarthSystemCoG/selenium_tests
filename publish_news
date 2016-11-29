@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/" />
+<title>publish news</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Publish News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>Test News</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>This test news feature was automatically generated using Selenium. Is this URL a link? http://www.cnn.com </td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=peer_project</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=CFSS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>This is an update.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List All News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Publish News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>Big Text</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>We are pleased to announce CoG version 3.2. The primary focus of this release is to upgrade functionality in support of ESGF deployments. Deprecated code and files have been removed, and several upgrades completed. Additionally, a better connection between CoG accounts and the ESGF OpenID database has been established so that changes to one are reflected in the other. Finally, node administrators now have the ability to export the search configuration for a project and to apply it to any project on any node. We are pleased to announce CoG version 3.2. The primary focus of this release is to upgrade functionality in support of ESGF deployments. Deprecated code and files have been removed, and several upgrades completed. Additionally, a better connection between CoG accounts and the ESGF OpenID database has been established so that changes to one are reflected in the other. Finally, node administrators now have the ability to export the search configuration for a project and to apply it to any project on any node. We are pleased to announce CoG version 3.2. The primary focus of this release is to upgrade functionality in support of ESGF deployments. Deprecated code and files have been removed, and several upgrades completed. Additionally, a better connection between CoG accounts and the ESGF OpenID database has been established so that changes to one are reflected in the other. Finally, node administrators now have the ability to export the search configuration for a project and to apply it to any project on any node.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.news_text</td>
+	<td>Big Text<br /> We are pleased to announce CoG version 3.2. The primary focus of this release is ...</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Publish News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>long url</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>http://www.longurlmaker.com/go?id=FFKVWDQUCHJVVCDUKYEGKQMMTDHLXHPDNAYJDOEFWNBSQEMBDRHOHUABYHMWOCZCCXLFMQLJEMBUQOVTFDHMYIOXQATFCSHFQSKCJWMNINHZBDTHHBUGJIDZIWELOLQEEBHNXUBGHJFJMYRUZLAJTDIBZNNOZDTDFBRDVSJDBONOMEIMPJVIMEKMRXBQBUUHWMKRETVGHIUUMDHCNCLZHVMYTOPVIKCFWMWBFRHNACHNGOPTRATYWGXQUMLDWOISAFUGXBTXEBKLQAEHBYFYEDOYPACMPKFQPZWMBQKFRVQHVVPXTVVYYKXOLZAAJFQZFNLGDWMVRDDMZSJSNFRMPOAANBBWHSWMFITJEGEVJIIJARBOXTAMHBNUCORJGNWMVPWZVAVFIDOJVQXSJYFQZSLCGCLNQHALXWLTXGYGKNPFDNYNLDDLVPOCRZQHHQTFMFYJMWQWKFBNSAAEDEQYUEBLERTMHNRUSQEENUBXADLTDMXGQOFLTGWYYQLGEDAXTFCGZDDZGOTJAQQRFWCZDZXBQJHVMISFNUMNYPNEEGOFXFXCCACFZAGQJOLVWEBKZNXXDKCIQQNOWKQYKTDKTKBCZMYVRAGQNDNROPZFGNTDYKBJDFUWQVZPIYLZYRPMUCEJSEOYRHBQRDZVITSZOROWQZWPRLCMOGVGKJECRGSIJRDSLVRZNGWEGSTXEVJSCFYMODPFJHOSZSLKOCKBIGGOZZMDVVWXBUKPXAVGHJZGCKQQNASWHYLHYXLTTHRUBCKZCGFKPFQSQHIEIAAQYMXWKIQEPHZRKJQMPWWFCNYSVGWDGXUFKRCUATYQAXHLHYXXVUDXIBPDIMHPJBVTTXOTQMKRKRCSQAQLVUIDWYHEKOTUQPNJMCDDPNVAEYSVZJGUDPYANFEXUYRKNFTAIWDXJZXOXQKWARREGPETVJRQHJBVPUVXRZVBYSQVJBSJSJNYZRSVAKLITMDJHZGZYBBXUSSDTLNLUAKTSCPTMACGNFPVEWUDYWASOTWIEJUZKETCHIWUJYAWEQRJMMMKINDXGZFLJZKTDEWLMSFVQGSUWKDJWQUFDYCKXHWHHHALLWWYOCUFIMAFWEPTUJYYIBJFJFMQNNCZJYXYASEJEEPBIEVDOUCWVLCERPVFCXEMWCLXUPGZUWBDAWGPQJLMUORMEMRHKWTGYFDTUKSPGTSHQZWHIITDWKPBXHIHECNDHRWCBORIIKPYJLGRUZVQKKRHSAPXCCAKUWMWLEETOUSXGYPAYKRIVJQOJFLLILVCHIYSMDMAXFYDENECXVKSEBHNGSZODVRKDQDPTQQRVOVABZCZUNSYOZMURLJVGAFKQJAKAQBWFWWHVYGQMZOAYBVQMELTERDVBEFBUGXADUHYTNPFNEFLFACSENLJEPEFTJHOQFOTZVSSJHXWLDIQEKIJXUSCKWIEGPTWVIQUDINNQLKBOSSTDBCBWUDGRMLYCEVXMLRQUFEKQOLFHEYLFAMBVQHMCTLFXGCKRUALZFVPTHVBLUMQUZSQPADSTOXRUABMUCYTHUJBBECNZPETOWKEXNWQBUHWUJIPLHITBSUDXXQWMVQBSAFPNCFOXNLSWTHIAQBCIWFFTWBGRRIJROZFRFUOSFHPZOYAEZCNWISQEUXWMFGEUFJLKDADJHSIWQJBQMONUHDYCAVOGBTBGCMRGNUQVMZRDITUUHHOPLNSMIHTKAUQDHHKUCAPPZHSIANCIURYGFQSOXLYYFPBMXLGZMWOLDHUDUWLPOJVUAOIXZHVEWXRUJYTVUIHYQBBLYNAMXWGYKPVKWRPTOGNXFHTZQAXGBZRANSMLPTJAJFKGWZZLGNJLVCLLDJRFJJFXBSIQLRQVWBBTBBEHOOTKRFVUONZYWEVYWDOIVFERGFLHGQPVEIFVNBQCOPALUVJRYYATDELKKWRQNGMRPSNDTDFITFTNBCFZAFTEJFOTCGKPNXHCPVFJYLRSRLGSOLSPRMTARHUTOFIBDPDTKJCJVUCMFIEUUXJLJDMAKHTZNCAQSDJDNMMIGPUMXZGSXQDG</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.news_text</td>
+	<td>long url<br /> http://www.longur...</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List All News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List All News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/projects/cog/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Publish News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>Bad Characters &gt; &lt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>Testing bad character in the title</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>The character '&gt;' is invalid.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Publish News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_title</td>
+	<td>Bad Characters in Description</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_text</td>
+	<td>Testing bad characters &lt; &gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.errorlist &gt; li</td>
+	<td>The character '&lt;' is invalid.</td>
+</tr>
+</tbody></table>
+</body>
+</html>

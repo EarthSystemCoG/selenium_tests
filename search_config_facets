@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/" />
+<title>search_config_facets</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">search_config_facets</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cfss</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Configure Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add New Search Facet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_key</td>
+	<td>realm</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_label</td>
+	<td>realm</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New Search Facet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_key</td>
+	<td>variable</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_label</td>
+	<td>variable</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New Search Facet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_key</td>
+	<td>time frequency</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_label</td>
+	<td>time frequency</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New Search Facet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_key</td>
+	<td>model</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_label</td>
+	<td>model</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New Search Facet Group</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Group1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New Search Facet Group</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Group2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Edit')])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_group</td>
+	<td>label=Group1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Edit')])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_group</td>
+	<td>label=Group1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Edit')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_group</td>
+	<td>label=Group2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Order Search Groups and Facets</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=group_name_Group1</td>
+	<td>label=2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=group_name_Group2</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Search with options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=legend[class=&quot;fieldset_legend&quot;]</td>
+	<td>Group2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.facet-category</td>
+	<td>time frequency</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='search-form']/div/div/fieldset[2]/legend</td>
+	<td>Group1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='search-form']/div/div/fieldset/div/div/div/label/span</td>
+	<td>realm</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='search-form']/div/div/fieldset[2]/div/div/div/label/span</td>
+	<td>model</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='search-form']/div/div/fieldset[2]/div[2]/div/div/label/span</td>
+	<td>variable</td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=yui-gen0-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=yui-gen0-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=yui-gen0-button</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

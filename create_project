@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/projects/cog/" />
+<title>upper_nav_bar_on_off</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">upper_nav_bar_on_off</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/cog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Register a New Project</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_short_name</td>
+	<td>1_auto_test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_long_name</td>
+	<td>using Selenium to automatically test project creation</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>blah blah blah</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=id_parents</td>
+	<td>label=CoG : Earth System CoG</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=id_peers</td>
+	<td>label=CF-Grids : CF-Grids</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=id_peers</td>
+	<td>label=CFSS : CF String Syntax</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>New Project Confirmation</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/projects/cog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=About Us</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Activate Projects</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Update »')])[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_active</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

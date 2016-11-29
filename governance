@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/projects/1_auto_test/" />
+<title>governance</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">governance</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Governance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Governance Overview</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_governanceOverview</td>
+	<td>blah blah</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Bodies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Strategic Bodies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_managementbody_set-0-title</td>
+	<td>Testing a Strategic Body</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_managementbody_set-0-description</td>
+	<td>This is a sentence description of a strategic body. </td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=id_managementbody_set-0-purposes</td>
+	<td>label=Program Direction</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_managementbody_set-0-other</td>
+	<td>This is another purpose</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_managementbody_set-0-termsOfReference</td>
+	<td>These are terms of reference:<br /><br />1) Test<br />2) Test some more<br />3) Test till we are dead</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Strategic Bodies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Members</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_managementbodymember_set-0-user</td>
+	<td>label=Sylvia Murphy</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Roles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Roles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_organizationalrole_set-0-title</td>
+	<td>test role</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_organizationalrole_set-0-description</td>
+	<td>Testing out a sentence in an Organizational Role</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_organizationalrole_set-0-type</td>
+	<td>label=Principal Investigator (Lead Role)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Roles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Members</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_organizationalrolemember_set-0-user</td>
+	<td>label=Sylvia Murphy</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Communications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Communications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_communicationmeans_set-0-title</td>
+	<td>test communication</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_communicationmeans_set-0-type</td>
+	<td>label=Video Conference</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_communicationmeans_set-0-frequency</td>
+	<td>yearly</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_communicationmeans_set-0-purpose</td>
+	<td>label=Steering Committee</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_communicationmeans_set-0-membership</td>
+	<td>label=By Invitation</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_communicationmeans_set-0-participationDetails</td>
+	<td>blah blah</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Processes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Processes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_taskPrioritizationStrategy</td>
+	<td>blah </td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_requirementsIdentificationProcess</td>
+	<td>blah</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Policies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Policies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-title</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-url</td>
+	<td>http://www.cnn.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_form-0-description</td>
+	<td>testing auto completion of policy URLs</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Update Project Policies</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_form-0-DELETE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

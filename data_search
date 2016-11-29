@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cog-cu-dev.colorado.edu/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/projects/1_data_test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Configure Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_url</td>
+	<td>https://pcmdi.llnl.gov/esg-search/search/</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_constraints</td>
+	<td>project=CMIP5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_description</td>
+	<td>CMIP5 test project</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_modelMetadataFlag</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_replicaSearchFlag</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_latestSearchFlag</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_localSearchFlag</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Search with options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.accordionToggleItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=checkbox_project_CMIP5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (40512)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=replica</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (148819)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=replica</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (40512)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='search-form']/div/div/div[2]/div/div[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=checkbox_variable_cLitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (693)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=checkbox_variable_cLitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=search_query</td>
+	<td>cSoil</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (1234)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Show Metadata</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hide Metadata</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Show Files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=[ More File Metadata ]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=[ Less File Metadata ]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hide Files</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//form[@id='search-form']/div[2]/p/a[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.facet-option</td>
+	<td>CMIP5 (40512)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=limit</td>
+	<td>label=100</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='search-form']/div[2]/div[5]/table/tbody/tr[100]/td</td>
+	<td>100.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//form[@id='search-form']/div[2]/div[5]/table/tbody/tr/td[2]/a[4]/strong</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
